@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('img/main-bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+}
+.page {
+	width: 100vh;
+	height: 100vh;
+	padding: 40px 0;
+}
+header {
+	display:block;
+}
+header nav{
+	display: flex;
+	justify-content: space-around;
+	font-size: 24px;
+	color: #fff;
+}
+
+nav div {
+	width: 30%;
+	padding: 0 40px;
+}
